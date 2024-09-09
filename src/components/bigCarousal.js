@@ -1,9 +1,9 @@
 "use client";
-// Import Swiper React components
+
 import { Swiper, SwiperSlide } from "swiper/react";
-//
-// Import Swiper styles
+import { Navigation, Autoplay } from "swiper/modules";
 import "swiper/css";
+import "swiper/css/navigation";
 
 import Slide from "../components/slide";
 
@@ -13,8 +13,13 @@ export default function BigCarousel() {
       className="w-full h-full justify-center items-center"
       spaceBetween={50}
       slidesPerView={1}
-      onSlideChange={() => console.log("slide change")}
-      onSwiper={(swiper) => console.log(swiper)}
+      navigation={true}
+      modules={[Navigation, Autoplay]}
+      loop={true}
+      autoplay={{
+        delay: 2500,
+        disableOnInteraction: false,
+      }}
     >
       <SwiperSlide>
         <Slide
