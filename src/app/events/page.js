@@ -1,4 +1,8 @@
 // Events
 export default function Page() {
-  return <h1>Events</h1>;
+  return (
+    <div className="h-full w-full flex flex-col items-center">
+      <h1>Membership</h1>
+    </div>
+  );
 }

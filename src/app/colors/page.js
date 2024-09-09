@@ -1,6 +1,6 @@
 export default function Home() {
   return (
-    <div>
+    <div className="h-full w-full">
       <p className="p-3 bg-mycyan text-white">
         since 1984, Digitunity has collected countless electronics through its
         partnership alliance made up of thousands of corporations, foundations,

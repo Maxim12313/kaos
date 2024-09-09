@@ -1,4 +1,4 @@
 // president messsage
 export default function Page() {
-  return <h1>President Message</h1>;
+  return <h1 className="h-dvh">President Message</h1>;
 }

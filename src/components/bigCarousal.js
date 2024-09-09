@@ -25,13 +25,18 @@ export default function BigCarousel() {
         <Slide
           title={"Korean American Otolargyngology Society"}
           caption="Info about KAOS"
+          url="/about"
         />
       </SwiperSlide>
       <SwiperSlide>
-        <Slide title={"Events"} caption="Info about events" />
+        <Slide title={"Events"} caption="Info about events" url="/events" />
       </SwiperSlide>
       <SwiperSlide>
-        <Slide title={"Programs"} caption="Info about programs" />
+        <Slide
+          title={"Programs"}
+          caption="Info about programs"
+          url="/programs"
+        />
       </SwiperSlide>
     </Swiper>
   );
