@@ -2,8 +2,10 @@ import BigCarousal from "../components/bigCarousal";
 
 export default function Home() {
   return (
-    <div>
-      <h1>Home</h1>
+    <div className="w-full">
+      <div className="h-[600px]">
+        <BigCarousal />
+      </div>
     </div>
   );
 }

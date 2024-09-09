@@ -4,7 +4,7 @@ import logo from "../images/kaos-logo.png";
 
 export default function Navbar() {
   return (
-    <div className="fixed top-0 left-0 w-full z-10 flex flex-col h-32 helper">
+    <div className="fixed top-0 left-0 w-full z-10 flex flex-col h-32">
       <div className="flex flex-row bg-slate-600 w-full h-1/3 items-center justify-end text-white space-x-20">
         <a>soc1</a>
         <a>soc2</a>
