@@ -2,7 +2,7 @@ import Image from "next/image";
 
 export default function BigText({ title, image }) {
   return (
-    <div className="h-[400px] w-full helper flex flex-col justify-center items-center overflow-hidden">
+    <div className="h-[400px] w-full flex flex-col justify-center items-center overflow-hidden">
       <Image
         className="w-full"
         src={image}
