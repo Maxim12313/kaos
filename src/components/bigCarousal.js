@@ -17,13 +17,16 @@ export default function BigCarousel() {
       onSwiper={(swiper) => console.log(swiper)}
     >
       <SwiperSlide>
-        <Slide content={"Korean American Otolargyngology Society"} />
+        <Slide
+          title={"Korean American Otolargyngology Society"}
+          caption="Info about KAOS"
+        />
       </SwiperSlide>
       <SwiperSlide>
-        <Slide content={"Events"} />
+        <Slide title={"Events"} caption="Info about events" />
       </SwiperSlide>
       <SwiperSlide>
-        <Slide content={"Programs"} />
+        <Slide title={"Programs"} caption="Info about programs" />
       </SwiperSlide>
     </Swiper>
   );
