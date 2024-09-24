@@ -10,9 +10,8 @@ module.exports = {
       colors: {
         mycyan: "var(--mycyan)",
         mygreen: "var(--mygreen)",
-        "mydark-slate": "var(--mydark-slate)",
         myslate: "var(--myslate)",
-        "mylight-slate": "var(--mylight-slate)",
+        mygray: "var(--mygray)",
       },
     },
   },

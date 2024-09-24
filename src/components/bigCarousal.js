@@ -7,6 +7,8 @@ import "swiper/css/navigation";
 
 import Slide from "../components/slide";
 
+import placeholder from "../images/placeholder.jpeg";
+
 export default function BigCarousel() {
   return (
     <Swiper
@@ -22,21 +24,13 @@ export default function BigCarousel() {
       }}
     >
       <SwiperSlide>
-        <Slide
-          title={"Korean American Otolargyngology Society"}
-          caption="Info about KAOS"
-          url="/about"
-        />
+        <Slide title={"About us"} url="/about" image={placeholder} />
       </SwiperSlide>
       <SwiperSlide>
-        <Slide title={"Events"} caption="Info about events" url="/events" />
+        <Slide title={"Events"} url="/events" image={placeholder} />
       </SwiperSlide>
       <SwiperSlide>
-        <Slide
-          title={"Programs"}
-          caption="Info about programs"
-          url="/programs"
-        />
+        <Slide title={"Programs"} url="/programs" image={placeholder} />
       </SwiperSlide>
     </Swiper>
   );
