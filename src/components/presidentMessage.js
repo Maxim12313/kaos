@@ -51,7 +51,10 @@ export default function PresidentMessage() {
         special thanks to Dr. Do-Yeon Cho for his tireless work to organize the
         symposia and program.
         <br />
-        <br />I look forward to connecting with everyone soon in Miami!
+        <br />
+        I look forward to connecting with everyone soon in Miami!
+        <br />
+        <br />- Jeffrey D. Suh, MD
       </p>
     </div>
   );

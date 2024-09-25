@@ -11,7 +11,7 @@ export default function Home() {
         <BigCarousal />
       </div>
       <div className="w-full flex flex-col items-center">
-        <div className="w-3/5 flex flex-col items-center mb-[100px]">
+        <div className="w-3/5 flex flex-col items-center mb-[200px]">
           <Blurb />
         </div>
         <div className="w-full flex flex-col items-center bg-mygray">
