@@ -22,6 +22,7 @@ export default function BigCarousel() {
         delay: 2500,
         disableOnInteraction: false,
       }}
+      // style={SWIPER - NAVIGATION - COLOR}
     >
       <SwiperSlide>
         <Slide title={"About us"} url="/about" image={placeholder} />

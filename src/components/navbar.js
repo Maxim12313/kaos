@@ -21,7 +21,7 @@ export default function Navbar() {
           <Image src={logo} height={75} width={0} alt="logo" />
         </Link>
         <div className="flex flex-row justify-end">
-          <h2 className="flex flex-row justify-center flex-1">
+          <h3 className="flex flex-row justify-center flex-1">
             <Link className="px-8" href="/about">
               About Us
             </Link>
@@ -34,7 +34,7 @@ export default function Navbar() {
             <Link className="px-8" href="/events">
               Events
             </Link>
-          </h2>
+          </h3>
         </div>
       </div>
     </div>
